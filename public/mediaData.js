@@ -78,7 +78,7 @@ export const mediaData = {
     {
       "name": "Schildkröte",
       "shortName": "Schildkröte",
-      "source": "detail-zuckerbankett-schildkröte",
+      "source": "detail-zuckerbankett-schildkroete",
       "description": "",
       "link": "",
       "wiki": ""
