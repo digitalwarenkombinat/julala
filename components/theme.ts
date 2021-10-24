@@ -10,27 +10,6 @@ const errorColor = mediaData.colors.errorColor || '#f3aa1e';
 const infoColor = mediaData.colors.infoColor || '#ab465a';
 const successColor = mediaData.colors.successColor || '#f3aa1e';
 
-const magilio = {
-  fontFamily: 'Magilio',
-  fontStyle: 'normal',
-  fontWeight: 400,
-  src: `
-    local('Magilio'),
-    url('${process.env.pathPrefix}/fonts/Magilio.otf') format('opentype')
-  `,
-  fontDisplay: 'swap',
-};
-
-const ginoraSans = {
-  fontFamily: 'GinoraSans',
-  fontStyle: 'normal',
-  fontWeight: 400,
-  src: `
-    local('GinoraSans'),
-    url('${process.env.pathPrefix}/fonts/GinoraSans.otf') format('opentype')
-  `,
-};
-
 // eslint-disable-next-line import/no-mutable-exports
 let theme = createTheme({
   palette: {
@@ -57,14 +36,9 @@ let theme = createTheme({
     },
   },
   typography: {
-    fontFamily: 'GinoraSans, Arial',
     h2: {
-      fontFamily: 'Magilio, Arial',
       marginTop: '0.5rem',
       flexGrow: 1,
-    },
-    h3: {
-      fontFamily: 'Magilio, Arial',
     },
     h6: {
       textAlign: 'center',
@@ -80,11 +54,6 @@ theme = responsiveFontSizes(theme);
 theme = {
   ...theme,
   overrides: {
-    MuiCssBaseline: {
-      '@global': {
-        '@font-face': [magilio, ginoraSans],
-      },
-    },
     MuiGrid: {
       root: {
         '@media (prefers-reduced-motion: reduce)': {

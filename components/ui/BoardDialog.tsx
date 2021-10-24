@@ -41,9 +41,11 @@ export function BoardDialog({
         height={selectedItem.landscape ? 800 : 1000}
       />
       <DialogActions>
-        <Link href={selectedItem.link} target="_blank" rel="noreferrer">
-          Erfahre noch mehr über diese Lehrtafel
-        </Link>
+        {selectedItem.link && (
+          <Link href={selectedItem.link} target="_blank" rel="noreferrer">
+            Erfahre noch mehr über diese Lehrtafel
+          </Link>
+        )}
       </DialogActions>
     </Dialog>
   );

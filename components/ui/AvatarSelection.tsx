@@ -17,7 +17,8 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
   emptyAvatar: {
     opacity: '0.8',
-    borderColor: theme.palette.primary.main,
+    border: 'none',
+    padding: 0,
     cursor: 'initial',
   },
 }));
@@ -43,6 +44,7 @@ export default function AvatarSelection() {
         {[...Array(numberOfEmptyItems).keys()].map((index) => (
           <Grid key={index} item>
             <Avatar
+              variant="square"
               src={`${process.env.pathPrefix}/images/plants/empty.svg`}
               className={classes.emptyAvatar}
               alt="Empty element"

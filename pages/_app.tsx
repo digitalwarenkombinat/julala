@@ -26,10 +26,8 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <meta
           name="description"
-          content="Malen! Strahlen! Julala! - Erstelle individuelle Mandalas aus historischen Pflanzendarstellungen."
+          content="Malen! Strahlen! Julala! - Erstelle individuelle Mandalas mit Details aus historischen Kupferstichen."
         />
-        <link rel="preload" href={`${process.env.pathPrefix}/fonts/GinoraSans.otf`} as="font" crossOrigin="" />
-        <link rel="preload" href={`${process.env.pathPrefix}/fonts/Magilio.otf`} as="font" crossOrigin="" />
         <link rel="icon" href={`${process.env.pathPrefix}/favicon.ico`} sizes="any" />
         <link rel="icon" href={`${process.env.pathPrefix}/icon.svg`} type="image/svg+xml" />
         <link rel="apple-touch-icon" href={`${process.env.pathPrefix}/apple-touch-icon.png`} />
