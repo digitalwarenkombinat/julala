@@ -5,10 +5,10 @@ export const mediaData = {
     "primaryColor": "#477999",
     "secondaryColor": "#add2d3",
     "backgroundColor": "#dfd2a4",
-    "textColor": "#000",
-    "errorColor": "#725531",
-    "infoColor": "#000",
-    "successColor": "#4e432d"
+    "textColor": "#341419",
+    "errorColor": "#da9a24",
+    "infoColor": "#da9a24",
+    "successColor": "#da9a24"
   },
   "images": [
     {
@@ -95,6 +95,14 @@ export const mediaData = {
       "name": "Das Zuckerbankett",
       "shortName": "Vögel",
       "source": "detail-zuckerbankett-voegel",
+      "description": "Der Kupferstich zeigt das sogenannte „Zuckerbankett“. Dieses wurde zum Abschluss des Hochzeitstages in der Hofstube des Düsseldorfer Schlosses präsentiert. So schreibt es Graminäus in seinem Werk. Zu sehen sind nicht nur, wie es der Name vielleicht vermuten lässt, Objekte aus Zucker, sondern auch Tafelaufsätze, Pokale und Scherztrinkgefäße. Auf der prächtigen und detailreichen Schautafel gibt es einiges zu entdecken.",
+      "link": "Was ist zu sehen?",
+      "footer": "Der Festtisch ist mit unzähligen Figuren und Objekten geschmückt. Ins Auge fällt zugleich die dargestellte Burg und die ungewöhnlichen Tierwesen. Auf dem Tisch befinden sich zum Beispiel ein Einhorn, ein Kriegselefant mit Soldaten, aber auch Meerestiere und Orangenbäumchen. Dabei waren viele der Tiere Scherztrinkgefäße, was gemeinsam mit den am Rand platzierten Tellern und Servietten darauf hinweist, dass an dieser Tafel auch gespeist werden sollte. Manche Figuren, wie die Wappen tragenden Löwen, bestanden sogar komplett aus Zucker. Vor dem Bankett sieht man zwei Paare, die Gäste der Festlichkeiten waren. Durch ihre Kleidung, die spanische Tracht, wissen wir, dass sie zum Adel gehörten."
+    },
+    {
+      "name": "Das Zuckerbankett",
+      "shortName": "Schildkröte",
+      "source": "detail-zuckerbankett-schildkroete",
       "description": "Der Kupferstich zeigt das sogenannte „Zuckerbankett“. Dieses wurde zum Abschluss des Hochzeitstages in der Hofstube des Düsseldorfer Schlosses präsentiert. So schreibt es Graminäus in seinem Werk. Zu sehen sind nicht nur, wie es der Name vielleicht vermuten lässt, Objekte aus Zucker, sondern auch Tafelaufsätze, Pokale und Scherztrinkgefäße. Auf der prächtigen und detailreichen Schautafel gibt es einiges zu entdecken.",
       "link": "Was ist zu sehen?",
       "footer": "Der Festtisch ist mit unzähligen Figuren und Objekten geschmückt. Ins Auge fällt zugleich die dargestellte Burg und die ungewöhnlichen Tierwesen. Auf dem Tisch befinden sich zum Beispiel ein Einhorn, ein Kriegselefant mit Soldaten, aber auch Meerestiere und Orangenbäumchen. Dabei waren viele der Tiere Scherztrinkgefäße, was gemeinsam mit den am Rand platzierten Tellern und Servietten darauf hinweist, dass an dieser Tafel auch gespeist werden sollte. Manche Figuren, wie die Wappen tragenden Löwen, bestanden sogar komplett aus Zucker. Vor dem Bankett sieht man zwei Paare, die Gäste der Festlichkeiten waren. Durch ihre Kleidung, die spanische Tracht, wissen wir, dass sie zum Adel gehörten."
