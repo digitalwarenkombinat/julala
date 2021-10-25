@@ -38,7 +38,7 @@ let theme = createTheme({
   typography: {
     fontFamily: ['Playfair Display', 'sans-serif'].join(','),
     h2: {
-      marginTop: '0.5rem',
+      margin: '0.5rem 0',
       flexGrow: 1,
     },
     h6: {
