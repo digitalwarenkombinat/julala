@@ -1,4 +1,4 @@
-import { Dialog, DialogActions, DialogContent, DialogTitle, Link } from '@material-ui/core';
+import { Dialog, DialogContent, DialogTitle } from '@material-ui/core';
 import { makeStyles, Theme } from '@material-ui/core/styles';
 
 import useStore, { BOARD_SUFFIX, IMedia } from '../store';
@@ -40,13 +40,8 @@ export function BoardDialog({
         width={selectedItem.landscape ? 1000 : 800}
         height={selectedItem.landscape ? 800 : 1000}
       />
-      <DialogActions>
-        {selectedItem.link && (
-          <Link href={selectedItem.link} target="_blank" rel="noreferrer">
-            Erfahre noch mehr über diese Lehrtafel
-          </Link>
-        )}
-      </DialogActions>
+      <DialogTitle id="board-dialog-sub-title">{selectedItem.link}</DialogTitle>
+      <DialogContent>{selectedItem.footer}</DialogContent>
     </Dialog>
   );
 }

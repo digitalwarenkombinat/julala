@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme: Theme) => ({
 }));
 
 const main = {
-  title: 'Malen! Strahlen! Julala!',
+  title: 'Wissen! Malen! Entspannen!',
   description: 'Erstelle individuelle Mandalas mit Details aus historischen Kupferstichen.',
 };
 

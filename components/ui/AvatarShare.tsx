@@ -30,21 +30,19 @@ export default function AvatarShare() {
   return (
     <Grid item xs={12} className={classes.avatarList}>
       <Grid container alignItems="center">
-        {getSelectedElements().map((element) => (
-          <Grid key={element.name} item container alignItems="center">
-            <Grid item xs={1}>
+        {getSelectedElements().map((element, index) => (
+          <Grid key={element.name + index} item container alignItems="center">
+            <Grid item xs={2}>
               <Avatar
-                key={element.name}
+                variant="square"
+                key={element.name + index}
                 alt={element.name}
                 src={`${process.env.pathPrefix}/images/${mediaPath}${element.source}${ELEMENT_SUFFIX}`}
                 className={classes.avatar}
               />
             </Grid>
-            <Grid item xs={2}>
+            <Grid item xs={10}>
               <Typography className={classes.name}>{element.shortName}</Typography>
-            </Grid>
-            <Grid item xs={9}>
-              <Typography className={classes.description}>{element.description}</Typography>
             </Grid>
           </Grid>
         ))}

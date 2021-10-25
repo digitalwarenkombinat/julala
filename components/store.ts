@@ -5,8 +5,8 @@ import { mediaData } from '../public/mediaData';
 
 export const AVATAR_COUNT = 5;
 export const ELEMENT_SUFFIX = mediaData.elementSuffix || '.webp';
-export const BOARD_SUFFIX = '_Lehrtafel.webp';
-export const VEKTOR_SUFFIX = '_vektor.svg';
+export const BOARD_SUFFIX = '_Kupferstich.webp';
+export const VEKTOR_SUFFIX = '.svg';
 
 function reorderSelectedElement(element: IMedia): IMedia {
   return element.selected ? { ...element, order: element.order === 1 ? 1 : element.order - 1 } : element;
@@ -18,7 +18,7 @@ export interface IMedia {
   source: string;
   description?: string;
   link?: string;
-  wiki?: string;
+  footer?: string;
   selected?: boolean;
   active?: boolean;
   order?: number;
@@ -51,7 +51,7 @@ const useStore = create<Store>(
       isMaaS: mediaData.isMaaS,
       mediaPath: mediaData.isMaaS ? '' : 'plants/',
       media: mediaData.images,
-      colorMode: true,
+      colorMode: false,
 
       invertColorMode: () => set((state) => ({ colorMode: !state.colorMode })),
       getSelectedElements: () =>

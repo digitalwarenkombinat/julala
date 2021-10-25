@@ -15,16 +15,14 @@ const useStyles = makeStyles((theme: Theme) => ({
     overflow: 'hidden',
   },
   imageList: {
-    flexWrap: 'nowrap',
-    transform: 'translateZ(0)',
+    width: '90%',
+    height: 'auto',
   },
   imageListItem: {
     backgroundColor: theme.palette.secondary.main,
     borderStyle: 'solid',
     borderColor: theme.palette.primary.main,
     borderWidth: '2px',
-    borderRadius: '4px',
-    margin: theme.spacing(1),
   },
   itemSelected: {
     borderColor: theme.palette.info.main,
@@ -56,15 +54,15 @@ export default function ItemList() {
   }
 
   function calculateCols() {
-    if (matchesUpXl) return 4.5;
-    if (matchesUpLg) return 3.5;
-    if (matchesUpSm) return 2.5;
-    return 1.5;
+    if (matchesUpXl) return 4;
+    if (matchesUpLg) return 3;
+    if (matchesUpSm) return 2;
+    return 1;
   }
 
   return (
     <Grid item xs={12} className={classes.itemList}>
-      <ImageList className={classes.imageList} cols={calculateCols()} gap={2} rowHeight={calculateRowHeight()}>
+      <ImageList className={classes.imageList} cols={calculateCols()} rowHeight={calculateRowHeight()}>
         {media.map((item) => (
           <ImageListItem
             key={item.source}

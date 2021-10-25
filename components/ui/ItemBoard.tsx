@@ -26,6 +26,7 @@ export default function ItemBoard() {
   return (
     <Grid container direction="column" alignItems="center" className={classes.itemBoard}>
       <Avatar
+        variant="square"
         key={getActiveElement().name}
         alt={getActiveElement().name}
         src={`${process.env.pathPrefix}/images/${mediaPath}${getActiveElement().source}${ELEMENT_SUFFIX}`}

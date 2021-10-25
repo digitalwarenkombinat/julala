@@ -23,5 +23,5 @@ const useStyles = makeStyles((theme: Theme) => ({
 export default function Main() {
   const classes = useStyles();
 
-  return <Grid item xs={12} md={6} className={classes.image} />;
+  return <Grid item xs={12} md={5} className={classes.image} />;
 }

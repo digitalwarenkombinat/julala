@@ -31,10 +31,11 @@ export default function AvatarSelection() {
   return (
     <Grid item xs={12} className={classes.avatarList}>
       <Grid container justifyContent="space-evenly">
-        {getSelectedElements().map((element) => (
-          <Grid key={element.name} item>
+        {getSelectedElements().map((element, index) => (
+          <Grid key={element.name + index} item>
             <Avatar
-              key={element.name}
+              variant="square"
+              key={element.name + index}
               alt={element.name}
               src={`${process.env.pathPrefix}/images/${mediaPath}${element.source}${ELEMENT_SUFFIX}`}
               className={classes.avatar}
