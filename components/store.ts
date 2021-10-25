@@ -108,7 +108,7 @@ const useStore = create<Store>(
       transformElement: (transformName: string, value: number): void =>
         set((state) => ({
           media: state.media.map((item) => {
-            if (item.name !== get().getActiveElement().name) {
+            if (item.shortName !== get().getActiveElement().shortName) {
               return item;
             }
             return {
