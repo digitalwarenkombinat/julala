@@ -2,11 +2,11 @@ export const mediaData = {
   "isMaaS": true,
   "elementSuffix": ".webp",
   "colors": {
-    "primaryColor": "#477999",
-    "secondaryColor": "#add2d3",
-    "backgroundColor": "#dfd2a4",
+    "primaryColor": "#da9a24",
+    "secondaryColor": "#477999",
+    "backgroundColor": "#f3efe5",
     "textColor": "#341419",
-    "errorColor": "#da9a24",
+    "errorColor": "#83bc9b",
     "infoColor": "#da9a24",
     "successColor": "#da9a24"
   },
