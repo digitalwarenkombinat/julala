@@ -28,15 +28,13 @@ export function About({ onClose, open }: { onClose: () => void; open: boolean })
       <DialogContent>
         <DialogContentText>
           Das Stadtmuseum Düsseldorf hat im Rahmen des Kultur-Hackathons Coding da Vinci Nieder.Rhein.Land 2021 die
-          Objektdatensätze zur „Fürstlich Jülich´sche Hochzeit“ bereitgestellt. (Lizenz CC BY 4.0 Stadtmuseum
-          Düsseldorf)
+          Objektdatensätze zur „Fürstlich Jülich´sche Hochzeit“ bereitgestellt (Lizenz CC BY 4.0 Stadtmuseum
+          Düsseldorf).
         </DialogContentText>
         <DialogContentText>
           Die Kupferstiche stammen aus der Werkstatt von Franz Hogenberg und zeigen die Ereignisse rund um die Hochzeit
-          von Herzog Johann Wilhelm von Jülich-Kleve-Berg mit der Markgräfin Jakobe von Baden im Juni 1585.
-        </DialogContentText>
-        <DialogContentText>
-          Es war DAS politische Großereignis im 16. Jahrhundert in Düsseldorf. Acht Tage lang wurde die Hochzeit mit den
+          von Herzog Johann Wilhelm von Jülich-Kleve-Berg mit der Markgräfin Jakobe von Baden im Juni 1585. Es war DAS
+          politische Großereignis im 16. Jahrhundert in Düsseldorf. Acht Tage lang wurde die Hochzeit mit den
           unterschiedlichsten Veranstaltungen gefeiert. Über 1.000 adelige Gäste waren geladen.
         </DialogContentText>
         <DialogContentText>
@@ -54,7 +52,7 @@ export function About({ onClose, open }: { onClose: () => void; open: boolean })
         <DialogContentText>
           Aber das Museum wünschte sich auch einen Weg in die digitale Welt. Mit „Julala“ gibt es jetzt eine
           Webanwendung, mit der man eigene Mandalas kreieren kann. So entsteht immer neues Material für malfreudige
-          Menschen, für Lehrer*innen, für Museumspädagog*innen …
+          Menschen, für Lehrer:innen, für Museumspädagog:innen …
         </DialogContentText>
         <DialogContentText>
           Ich hoffe sehr, dass das Stadtmuseum Düsseldorf Spaß an dem Entstandenen findet und es weiter nutzt. Denkbar
