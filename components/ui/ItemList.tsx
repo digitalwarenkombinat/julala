@@ -17,12 +17,12 @@ const useStyles = makeStyles((theme: Theme) => ({
   imageList: {
     width: '90%',
     height: 'auto',
+    margin: '0 !important',
   },
   imageListItem: {
-    backgroundColor: theme.palette.secondary.main,
     borderStyle: 'solid',
-    borderColor: theme.palette.primary.main,
-    borderWidth: '2px',
+    borderColor: theme.palette.error.main,
+    borderWidth: '1px',
   },
   itemSelected: {
     borderColor: theme.palette.info.main,

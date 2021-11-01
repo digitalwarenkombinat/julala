@@ -6,7 +6,7 @@ import CustomLink from '../CustomLink';
 export default function StartFab() {
   return (
     <CustomLink href="/select">
-      <Fab variant="extended" color="primary" aria-label="add">
+      <Fab variant="extended" color="secondary" aria-label="add">
         <AddIcon />
         Los geht&apos;s!
       </Fab>

@@ -8,7 +8,7 @@ export default function ShareFab() {
   const resetElements = useStore((state) => state.resetElements);
   return (
     <CustomLink href="/">
-      <Fab variant="extended" color="primary" aria-label="replay" onClick={resetElements}>
+      <Fab variant="extended" color="secondary" aria-label="replay" onClick={resetElements}>
         <Replay />
         Noch mal ganz von vorn
       </Fab>

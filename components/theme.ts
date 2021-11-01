@@ -40,6 +40,7 @@ let theme = createTheme({
     h2: {
       margin: '0.5rem 0',
       flexGrow: 1,
+      color: 'white',
     },
     h6: {
       textAlign: 'center',
@@ -103,7 +104,7 @@ theme = {
     },
     MuiFab: {
       extended: {
-        color: theme.palette.text.primary,
+        color: 'white',
         position: 'fixed',
         bottom: theme.spacing(2),
         left: '50%',

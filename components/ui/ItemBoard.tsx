@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     itemBoard: {
       padding: theme.spacing(2),
-      backgroundColor: theme.palette.secondary.main,
+      backgroundColor: theme.palette.background.default,
       borderBottom: '4px solid #000',
       [theme.breakpoints.up('md')]: {
         height: '100vh',

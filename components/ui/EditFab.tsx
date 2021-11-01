@@ -6,7 +6,7 @@ import CustomLink from '../CustomLink';
 export default function SelectFab() {
   return (
     <CustomLink href="/share">
-      <Fab variant="extended" color="primary" aria-label="share">
+      <Fab variant="extended" color="secondary" aria-label="share">
         <ShareIcon />
         Fertig!
       </Fab>

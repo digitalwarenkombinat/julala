@@ -5,7 +5,6 @@ import Box from '@material-ui/core/Box';
 import IconButton from '@material-ui/core/IconButton';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import InfoRoundedIcon from '@material-ui/icons/InfoRounded';
 import QRCode from 'react-qr-code';
 
 import CustomLink from './CustomLink';
@@ -37,11 +36,16 @@ export default function Header() {
           />
         </CustomLink>
         <Typography variant="h2" component="h1">
-          Julala
+          JULALA
         </Typography>
         <Box display="block" displayPrint="none" m={1}>
           <IconButton aria-label="about" onClick={handleClickOpen}>
-            <InfoRoundedIcon color={'secondary'} />
+            <img
+              alt="Julala Info"
+              src={`${process.env.pathPrefix}/images/${mediaPath}info.svg`}
+              width={60}
+              height={60}
+            />
           </IconButton>
         </Box>
         <Box display="none" displayPrint="block" m={1}>

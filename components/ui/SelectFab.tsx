@@ -6,7 +6,7 @@ import CustomLink from '../CustomLink';
 export default function SelectFab() {
   return (
     <CustomLink href="/edit">
-      <Fab variant="extended" color="primary" aria-label="edit">
+      <Fab variant="extended" color="secondary" aria-label="edit">
         <EditIcon />
         Erstelle dein Julala!
       </Fab>
