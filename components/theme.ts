@@ -182,6 +182,11 @@ theme = {
         paddingLeft: theme.spacing(0.5),
       },
     },
+    MuiDialogContentText: {
+      root: {
+        color: textColor,
+      },
+    },
   },
 };
 
