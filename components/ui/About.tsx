@@ -70,14 +70,14 @@ export function About({ onClose, open }: { onClose: () => void; open: boolean })
           Vinci Niedersachsen und eines anschließenden Stipendiums entwickelt. Mit Julala gibt es nun die erste
           gewünschte Nachnutzung ihrer Applikation. Gerd und Anne übernahmen die Einbindung der Schwarz-Weiß-Grafiken in
           ihre Software. (Folge den beiden auf{' '}
-          <Link href="https://twitter.com/AnkaTrabantka" target="_blank" rel="noreferrer">
+          <Link href="https://twitter.com/digiwako" target="_blank" rel="noreferrer">
             Twitter
           </Link>{' '}
           und{' '}
-          <Link href="https://www.instagram.com/ankatrabantka" target="_blank" rel="noreferrer">
+          <Link href="https://www.instagram.com/digitalwarenkombinat" target="_blank" rel="noreferrer">
             Instagram
           </Link>{' '}
-          unter <i> @AnkaTrabantka </i>)
+          unter <i> @Digitalwarenkombinat </i>)
         </DialogContentText>
         <DialogContentText>Der Quellcode von Plantala/Julala läuft unter einer MIT Lizenz.</DialogContentText>
         <DialogContentText>
