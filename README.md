@@ -23,6 +23,6 @@ _The source code of Plantala/Julala runs under an MIT license._
 ### MaaS (Media station as a Service)
 
 Furthermore within the project developed the idea of **Media station as a Service (MaaS)**,  
-which allows easily to reuse the framework of the **Plantala** and **Julala** projects to create new, simple Mandala generators.
+which allows easily to reuse the framework of the **Plantala** and **Julala** projects to create new, simple Mandala generators and to use them as media station for example in museums, galleries or educational centers.
 
-[Erstelle deine eigene Medienstation](./medienstationAsAService/README.md)
+[Create your own media station!](./medienstationAsAService/README.md)
